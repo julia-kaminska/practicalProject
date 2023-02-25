@@ -1,4 +1,4 @@
-package DatabaseConfig;
+package practicalProject.DatabaseConfig;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
