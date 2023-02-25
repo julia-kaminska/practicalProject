@@ -162,4 +162,3 @@ public class Ticket {
         @JoinColumn (name = "flight_number")
         private Flight flight;
     }
-
