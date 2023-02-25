@@ -105,4 +105,7 @@ public class Flight {
                 ", flightNumber=" + flightNumber +
                 '}';
     }
+
+    @OneToMany (mappedBy = "flightNumber")
+    private Ticket ticket;
 }
