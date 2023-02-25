@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/LuggageSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseConfig/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/DatabaseConfig/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -79,13 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677321210062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Flight entity">
+      <created>1677323424572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677323424572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project setup" />
     <MESSAGE value="Hibernate" />
     <MESSAGE value="Hibernate configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate configuration" />
+    <MESSAGE value="Flight entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flight entity" />
   </component>
 </project>
