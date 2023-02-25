@@ -159,4 +159,8 @@ public class Ticket {
                 ", priorityBoarding=" + priorityBoarding +
                 '}';
     }
+
+    @ManyToOne
+    @JoinColumn (name = "flight_number")
+    private Flight flight;
 }

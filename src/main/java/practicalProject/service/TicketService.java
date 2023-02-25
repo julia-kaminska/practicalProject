@@ -1,8 +1,8 @@
-package practicalProject;
+package practicalProject.service;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import practicalProject.DatabaseConfig.HibernateUtil;
+import practicalProject.databaseConfig.HibernateUtil;
 
 import javax.persistence.EntityManager;
 

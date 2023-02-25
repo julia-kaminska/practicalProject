@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="Flight entity">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,15 +90,22 @@
       <option name="project" value="LOCAL" />
       <updated>1677325336200</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Flight entity">
+      <created>1677325415818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677325415818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project setup" />
     <MESSAGE value="Hibernate" />
     <MESSAGE value="Hibernate configuration" />
-    <MESSAGE value="Flight entity" />
     <MESSAGE value="Ticket entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ticket entity" />
+    <MESSAGE value="Flight entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flight entity" />
   </component>
 </project>
