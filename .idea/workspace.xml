@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/service/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677325415818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Enities relation">
+      <created>1677325982044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677325982044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +113,7 @@
     <MESSAGE value="Hibernate configuration" />
     <MESSAGE value="Ticket entity" />
     <MESSAGE value="Flight entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flight entity" />
+    <MESSAGE value="Enities relation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enities relation" />
   </component>
 </project>
