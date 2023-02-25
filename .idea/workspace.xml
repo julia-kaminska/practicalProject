@@ -5,20 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="flight" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2ME3HatthV2NeszvdvnQwZL9I8G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,11 +62,50 @@
       <option name="project" value="LOCAL" />
       <updated>1677319037346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Hibernate">
+      <created>1677320977352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677320977352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Hibernate configuration">
+      <created>1677321210062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677321210062</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Flight entity">
+      <created>1677323424572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677323424572</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ticket entity">
+      <created>1677325336200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677325336200</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Flight entity">
+      <created>1677325415818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677325415818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project setup" />
+    <MESSAGE value="Hibernate" />
+    <MESSAGE value="Hibernate configuration" />
+    <MESSAGE value="Ticket entity" />
+    <MESSAGE value="Flight entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flight entity" />
   </component>
 </project>
