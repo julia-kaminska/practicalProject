@@ -1,4 +1,4 @@
-package practicalProject;
+package practicalProject.service;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;

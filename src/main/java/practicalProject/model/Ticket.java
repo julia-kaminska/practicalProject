@@ -141,7 +141,22 @@ public class Ticket {
             this.priorityBoarding = priorityBoarding;
         }
 
-        @Override
+    public Ticket(int id, Integer planeNumber, String name, String surname, String passportNumber, String ticketPrice, String planeModel, Integer seatNumber, LuggageSize additionalLuggage, String seatType, Boolean priorityBoarding, Flight flight) {
+        this.id = id;
+        this.planeNumber = planeNumber;
+        this.name = name;
+        this.surname = surname;
+        this.passportNumber = passportNumber;
+        this.ticketPrice = ticketPrice;
+        this.planeModel = planeModel;
+        this.seatNumber = seatNumber;
+        this.additionalLuggage = additionalLuggage;
+        this.seatType = seatType;
+        this.priorityBoarding = priorityBoarding;
+        this.flight = flight;
+    }
+
+    @Override
         public String toString() {
             return "Ticket{" +
                     "id=" + id +

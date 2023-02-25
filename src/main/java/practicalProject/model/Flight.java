@@ -93,6 +93,16 @@ public class Flight {
         this.flightNumber = flightNumber;
     }
 
+    public Flight(int id, String planeModel, String departureAirport, String arrivalAirport, Time departureTime, Time arrivalTime, Integer flightNumber) {
+        this.id = id;
+        this.planeModel = planeModel;
+        this.departureAirport = departureAirport;
+        this.arrivalAirport = arrivalAirport;
+        this.departureTime = departureTime;
+        this.arrivalTime = arrivalTime;
+        this.flightNumber = flightNumber;
+    }
+
     @Override
     public String toString() {
         return "Flight{" +
