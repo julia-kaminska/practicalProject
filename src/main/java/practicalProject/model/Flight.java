@@ -117,7 +117,7 @@ public class Flight {
     }
 //    @OneToOne
 //    @JoinColumn (name = "arrival_airport")
-//    private Airport airportOfArrival;
+//    private Airport airport;
 //
 //    @OneToOne
 //    @JoinColumn (name = "departure_airport")
