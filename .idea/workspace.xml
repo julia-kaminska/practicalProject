@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/service/AccountCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/service/AccountCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/UserAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="ticket" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -49,12 +50,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="AccountCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practicalProject.service.AccountCreator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="practicalProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practicalProject.service.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,9 +63,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountCreator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,12 +146,12 @@
       <option name="project" value="LOCAL" />
       <updated>1677326479231</updated>
     </task>
-    <task id="LOCAL-00009" summary="AccountCreator">
-      <created>1677335332524</created>
+    <task id="LOCAL-00009" summary="UserAccount/Role">
+      <created>1677402764918</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1677335332524</updated>
+      <updated>1677402764918</updated>
     </task>
     <option name="localTasksCounter" value="10" />
     <servers />
@@ -151,7 +164,7 @@
     <MESSAGE value="Flight entity" />
     <MESSAGE value="Enities relation" />
     <MESSAGE value="Ticket" />
-    <MESSAGE value="AccountCreator" />
-    <option name="LAST_COMMIT_MESSAGE" value="AccountCreator" />
+    <MESSAGE value="UserAccount/Role" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserAccount/Role" />
   </component>
 </project>
