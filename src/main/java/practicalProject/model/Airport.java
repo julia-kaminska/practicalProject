@@ -59,4 +59,10 @@ public class Airport {
                 ", country='" + country + '\'' +
                 '}';
     }
+
+    @OneToOne (mappedBy = "arrival_airport")
+    private Flight arrivalFlight;
+
+    @OneToOne (mappedBy = "departure_airport")
+    private Flight departureFlight;
 }
