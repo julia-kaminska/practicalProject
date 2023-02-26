@@ -60,7 +60,10 @@ public class Airport {
                 '}';
     }
 
-//    @OneToOne (mappedBy = "arrivalAirport")
+
+
+//    @OneToOne
+//    @JoinColumn (name = "arrival_airport")
 //    private Flight flight;
 
 //    @OneToOne (mappedBy = "departure_airport")

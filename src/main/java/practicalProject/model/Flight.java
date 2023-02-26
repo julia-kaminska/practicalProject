@@ -115,8 +115,12 @@ public class Flight {
                 ", flightNumber=" + flightNumber +
                 '}';
     }
+
 //    @OneToOne
-//    @JoinColumn (name = "arrival_airport")
+//    @JoinColumn (name = "plane_model")
+//    private Plane plane;
+
+//    @OneToOne (mappedBy = "airportName")
 //    private Airport airport;
 //
 //    @OneToOne
