@@ -5,6 +5,7 @@ import org.hibernate.Transaction;
 import practicalProject.DatabaseConfig.HibernateUtil;
 import practicalProject.model.Account;
 
+import javax.persistence.EntityManager;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

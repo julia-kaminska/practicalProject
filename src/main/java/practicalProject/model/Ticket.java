@@ -30,7 +30,7 @@ public class Ticket {
         @Column (name = "seat_number")
         private Integer seatNumber;
 
-        @Column (name = "additional luggage")
+        @Column (name = "additional_luggage")
         @Enumerated (EnumType.STRING)
         private LuggageSize additionalLuggage;
 
@@ -141,7 +141,7 @@ public class Ticket {
             this.priorityBoarding = priorityBoarding;
         }
 
-    public Ticket(int id, Integer planeNumber, String name, String surname, String passportNumber, String ticketPrice, String planeModel, Integer seatNumber, LuggageSize additionalLuggage, String seatType, Boolean priorityBoarding, Flight flight) {
+    public Ticket(int id, Integer planeNumber, String name, String surname, String passportNumber, String ticketPrice, String planeModel, Integer seatNumber, LuggageSize additionalLuggage, String seatType, Boolean priorityBoarding) {
         this.id = id;
         this.planeNumber = planeNumber;
         this.name = name;
@@ -153,7 +153,7 @@ public class Ticket {
         this.additionalLuggage = additionalLuggage;
         this.seatType = seatType;
         this.priorityBoarding = priorityBoarding;
-        this.flight = flight;
+
     }
 
     @Override
@@ -173,7 +173,7 @@ public class Ticket {
                     '}';
         }
 
-        @ManyToOne
-        @JoinColumn (name = "flight_number")
-        private Flight flight;
+//        @ManyToOne
+//        @JoinColumn (name = "flight_number")
+//        private Flight flight;
     }

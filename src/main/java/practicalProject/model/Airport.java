@@ -60,9 +60,9 @@ public class Airport {
                 '}';
     }
 
-    @OneToOne (mappedBy = "arrival_airport")
-    private Flight arrivalFlight;
+//    @OneToOne (mappedBy = "arrival_airport")
+//    private Flight flight;
 
-    @OneToOne (mappedBy = "departure_airport")
-    private Flight departureFlight;
+//    @OneToOne (mappedBy = "departure_airport")
+//    private Flight departureFlight;
 }

@@ -7,16 +7,13 @@ public class Account {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    @Column (name = "email")
-    private final String email;
+    @Column
+    private int id;
+    @Column(name = "email")
+    private String email;
 
     @Column (name = "password")
-    private final String password;
-
-    public Account(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
+    private String password;
 
 
     public String getEmail() {
@@ -25,5 +22,25 @@ public class Account {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Account(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+    @Override
+    public String toString() {
+        return "Account{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
