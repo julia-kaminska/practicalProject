@@ -45,4 +45,6 @@ public class Plane {
                 ", planeModel='" + planeModel + '\'' +
                 '}';
     }
+//    @OneToOne (mappedBy = "planeModel")
+//    private Flight flight;
 }
