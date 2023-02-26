@@ -7,29 +7,37 @@ import org.hibernate.query.Query;
 import practicalProject.DatabaseConfig.HibernateUtil;
 import practicalProject.model.Login;
 
+import javax.persistence.EntityManager;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class LoginService {
+    public static EntityManager em = HibernateUtil.getSessionFactory().createEntityManager();
 
-    public boolean login (String email, String password){
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction transaction = session.beginTransaction();
-        Query q = session.createQuery("FROM Login WHERE email = :email and password = :password", Login.class);
-        q.setParameter("email", email);
-        q.setParameter("password", password);
-        q.getResultList();
+    public void login (String email, String password) {
+        em.getTransaction().begin();
+        System.out.println("Log in");
+        System.out.println("Email address: ");
+        Scanner input = new Scanner(System.in);
+        String email2 = input.next();
+        System.out.println("Password: ");
+        Scanner input2 = new Scanner(System.in);
+        String password2 = input2.next();
 
-        List<Login> loginList = q.list();
-        transaction.commit();
-        session.close();
+        em.createQuery("FROM Login WHERE email = :email and password = :password", Login.class)
+                .setParameter("email", email)
+                .setParameter("password", password)
+                .getResultList();
+        em.getTransaction().commit();
 
-        if (loginList.isEmpty()){
-            return false;
+        if (email.equals(email2) && password.equals(password2)) {
+            System.out.println("User: " + email + " is logged in");
+        } else {
+            System.out.println("Try one more time");
+
         }
-        Login log = loginList.get(0);
-        System.out.println("User: " + log.getEmail() + " is logged in");
-        return true;
-    }
 
+    }
 }

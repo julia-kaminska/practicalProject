@@ -10,13 +10,10 @@ import javax.persistence.EntityManager;
 public class Main {
     public static EntityManager em = HibernateUtil.getSessionFactory().createEntityManager();
     public static void main(String[] args) {
-        em.getTransaction().begin();
-
-        Account ac = new Account();
-        ac.createAccount();
-        em.persist(ac);
-
-        em.getTransaction().commit();
+      AccountCreator ac = new AccountCreator();
+      ac.createAccount();
+      LoginService loginService = new LoginService();
+      loginService.login("julkam","123");
         HibernateUtil.shutdown();
 
 
