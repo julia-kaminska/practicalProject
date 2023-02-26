@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +52,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TicketService">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="practicalProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practicalProject.service.TicketService" />
+      <module name="practicalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practicalProject.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketService" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -153,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677402764918</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit gitignore">
+      <created>1677405034783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677405034783</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Project first demo">
+      <created>1677408857268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677408857268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +196,8 @@
     <MESSAGE value="Enities relation" />
     <MESSAGE value="Ticket" />
     <MESSAGE value="UserAccount/Role" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserAccount/Role" />
+    <MESSAGE value="Commit gitignore" />
+    <MESSAGE value="Project first demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project first demo" />
   </component>
 </project>

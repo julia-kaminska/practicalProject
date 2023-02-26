@@ -22,6 +22,7 @@
         <mapping class= "practicalProject.model.Login"/>
         <mapping class= "practicalProject.model.Account"/>
         <mapping class= "practicalProject.model.Airport"/>
+        <mapping class= "practicalProject.model.Plane"/>
 
 
     </session-factory>
