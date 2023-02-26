@@ -11,11 +11,10 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class AccountCreator {
-        private static final Map<String, Account> accounts = new HashMap<>();
+        public static EntityManager em = HibernateUtil.getSessionFactory().createEntityManager();
 
-     static void createAccount() {
-            Session session = HibernateUtil.getSessionFactory().openSession();
-            Transaction transaction = session.beginTransaction();
+    public void createAccount() {
+            em.getTransaction().begin();
             System.out.println("Create an account");
             System.out.println("Email address: ");
             Scanner input = new Scanner(System.in);
@@ -23,11 +22,11 @@ public class AccountCreator {
             System.out.println("create your password: ");
             Scanner input2 = new Scanner(System.in);
             String password = input2.next();
-            System.out.println("Account: " + email + "created successfully!");
+            System.out.println("Account: " + email + " created successfully!");
 
             Account account = new Account(email, password);
-            accounts.put(email,account);
-            session.close();
+            em.persist(account);
+            em.getTransaction().commit();
 
         }
 

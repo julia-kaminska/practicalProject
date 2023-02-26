@@ -1,6 +1,13 @@
 package practicalProject.model;
 
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import practicalProject.DatabaseConfig.HibernateUtil;
+
 import javax.persistence.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 @Entity
 public class Account {
@@ -43,4 +50,6 @@ public class Account {
                 ", password='" + password + '\'' +
                 '}';
     }
+
+
 }
