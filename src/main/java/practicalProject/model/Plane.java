@@ -11,8 +11,8 @@ public class Plane {
     @Column
     private int id;
 
-    @Column (name = "Plane_model")
-    private String PlaneModel;
+    @Column (name = "plane_model")
+    private String planeModel;
 
     public int getId() {
         return id;
@@ -23,26 +23,23 @@ public class Plane {
     }
 
     public String getPlaneModel() {
-        return PlaneModel;
+        return planeModel;
     }
 
     public void setPlaneModel(String planeModel) {
-        PlaneModel = planeModel;
+        this.planeModel = planeModel;
     }
 
     public Plane(int id, String planeModel) {
         this.id = id;
-        PlaneModel = planeModel;
-
+        this.planeModel = planeModel;
     }
 
     @Override
     public String toString() {
         return "Plane{" +
                 "id=" + id +
-                ", PlaneModel='" + PlaneModel + '\'' +
+                ", planeModel='" + planeModel + '\'' +
                 '}';
     }
-
-
 }
