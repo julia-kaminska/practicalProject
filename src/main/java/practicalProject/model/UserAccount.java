@@ -7,38 +7,38 @@ public class UserAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
-    private int Id;
+    private int id;
     @Column( name = "user_id")
-    private int User_ID;
+    private int userId;
 
     @Column ( name = "ticket_id")
-    private int Ticket_ID;
+    private int ticketId;
 
-    public int getId(){return Id;}
+    public int getId(){return id;}
 
     public void setId(int Id ){
-        this.Id = Id;
+        this.id = id;
     }
    public int getUser_ID(){
-       return User_ID;
+       return userId;
     }
 
     public void setUser_ID(int User_ID){
-       this.User_ID = User_ID;
+       this.userId = userId;
     }
 
     public int getTicketID(){
-       return Ticket_ID;
+       return ticketId;
     }
 
     public void setTicket_ID( int ticket_ID) {
-       this.Ticket_ID = ticket_ID;
+       this.ticketId = ticketId;
    }
 
-   public UserAccount (int user_ID, int ticket_ID, int id){
-        this.Id = Id;
-       this.User_ID = User_ID;
-       this.Ticket_ID = Ticket_ID;
+   public UserAccount (int userId, int ticketId, int id){
+        this.id = id;
+       this.userId = userId;
+       this.ticketId = ticketId;
    }
 
 
