@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677408857268</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Plane entity">
+      <created>1677411691381</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677411691382</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +202,7 @@
     <MESSAGE value="UserAccount/Role" />
     <MESSAGE value="Commit gitignore" />
     <MESSAGE value="Project first demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project first demo" />
+    <MESSAGE value="Plane entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plane entity" />
   </component>
 </project>
