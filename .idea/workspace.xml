@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="">
+    <list default="true" id="b9a272aa-e9c5-4058-bb50-781383a127e3" name="Changes" comment="Plane">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practicalProject/model/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicalProject/model/UserAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,38 +50,6 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="practicalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -148,14 +115,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677326479231</updated>
     </task>
-    <task id="LOCAL-00009" summary="UserAccount/Role">
-      <created>1677402764918</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1677402764918</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,7 +126,7 @@
     <MESSAGE value="Flight entity" />
     <MESSAGE value="Enities relation" />
     <MESSAGE value="Ticket" />
-    <MESSAGE value="UserAccount/Role" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserAccount/Role" />
+    <MESSAGE value="Plane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plane" />
   </component>
 </project>
