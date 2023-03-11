@@ -16,7 +16,7 @@ public class Main {
 
         AddFlight flightadder = new AddFlight();
         flightadder.addFlight();
-     
+
 
 
 
