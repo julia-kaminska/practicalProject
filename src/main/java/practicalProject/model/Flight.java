@@ -5,7 +5,7 @@ import practicalProject.service.SearchFlight;
 import javax.persistence.*;
 
 @Entity
-public class Flight  extends SearchFlight{
+public class Flight  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

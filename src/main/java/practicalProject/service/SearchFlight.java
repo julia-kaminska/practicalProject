@@ -2,6 +2,7 @@ package practicalProject.service;
 
 import practicalProject.DatabaseConfig.HibernateUtil;
 import practicalProject.model.Flight;
+import practicalProject.model.Login;
 
 import javax.persistence.*;
 import java.util.Scanner;
@@ -19,16 +20,17 @@ public class SearchFlight {
         Scanner destination = new Scanner(System.in);
         String arrivalAirport = destination.nextLine();
 
-        em.getTransaction().begin();
-        if (departureAirport.equals(Flight.em.contains(departureAirport))){
-            if (arrivalAirport.equals(Flight.em.contains(arrivalAirport)))
-            {
-                System.out.println(Flight.em.toString());
-            }
-        }
+       em.getTransaction().begin();
+        em.createQuery("FROM Flight WHERE departureAirport = :departureAirport and arrivalAirport = :arrivalAirport", Flight.class)
+                .setParameter("departureAirport", departureAirport)
+                .setParameter("arrivalAirport", arrivalAirport)
+                .getResultList();
 
+        em.getTransaction().commit();
 
 
     }
-
 }
+
+
+

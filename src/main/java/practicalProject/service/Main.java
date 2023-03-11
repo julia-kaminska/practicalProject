@@ -23,6 +23,8 @@ public class Main {
         sf.searchEngine();
 
 
+
+
         LoginService loginService = new LoginService();
         HibernateUtil.shutdown();
 
