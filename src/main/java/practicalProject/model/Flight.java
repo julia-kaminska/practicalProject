@@ -1,10 +1,9 @@
 package practicalProject.model;
 
 import javax.persistence.*;
-import java.sql.Time;
 
 @Entity
-public class Flight {
+public class Flight  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
@@ -20,13 +19,15 @@ public class Flight {
     private String arrivalAirport;
 
     @Column (name = "departure_time")
-    private Time departureTime;
+    private int departureTime;
 
     @Column (name = "arrival_time")
-    private Time arrivalTime;
+    private int arrivalTime;
 
     @Column (name = "flight_number")
-    private Integer flightNumber;
+    private String flightNumber;
+
+
 
     public int getId() {
         return id;
@@ -60,31 +61,35 @@ public class Flight {
         this.arrivalAirport = arrivalAirport;
     }
 
-    public Time getDepartureTime() {
+    public int getDepartureTime() {
         return departureTime;
     }
 
-    public void setDepartureTime(Time departureTime) {
+    public void setDepartureTime(int departureTime) {
         this.departureTime = departureTime;
     }
 
-    public Time getArrivalTime() {
+    public int getArrivalTime() {
         return arrivalTime;
     }
 
-    public void setArrivalTime(Time arrivalTime) {
+    public void setArrivalTime(int arrivalTime) {
         this.arrivalTime = arrivalTime;
     }
 
-    public Integer getFlightNumber() {
+    public String getFlightNumber() {
         return flightNumber;
     }
 
-    public void setFlightNumber(Integer flightNumber) {
+    public void setFlightNumber(String flightNumber) {
         this.flightNumber = flightNumber;
     }
 
-    public Flight(String planeModel, String departureAirport, String arrivalAirport, Time departureTime, Time arrivalTime, Integer flightNumber) {
+    public Flight(){
+
+    }
+    public Flight(String planeModel, String departureAirport, String arrivalAirport, int departureTime,int
+            arrivalTime, String flightNumber) {
         this.planeModel = planeModel;
         this.departureAirport = departureAirport;
         this.arrivalAirport = arrivalAirport;
@@ -93,15 +98,15 @@ public class Flight {
         this.flightNumber = flightNumber;
     }
 
-    public Flight(int id, String planeModel, String departureAirport, String arrivalAirport, Time departureTime, Time arrivalTime, Integer flightNumber) {
-        this.id = id;
-        this.planeModel = planeModel;
-        this.departureAirport = departureAirport;
-        this.arrivalAirport = arrivalAirport;
-        this.departureTime = departureTime;
-        this.arrivalTime = arrivalTime;
-        this.flightNumber = flightNumber;
-    }
+//    public Flight (String planeModel, String departureAirport, String arrivalAirport, Time departureTime, Time arrivalTime, Integer flightNumber) {
+////        this.id = id;
+//        this.planeModel = planeModel;
+//        this.departureAirport = departureAirport;
+//        this.arrivalAirport = arrivalAirport;
+//        this.departureTime = departureTime;
+//        this.arrivalTime = arrivalTime;
+//        this.flightNumber = flightNumber;
+//    }
 
     @Override
     public String toString() {

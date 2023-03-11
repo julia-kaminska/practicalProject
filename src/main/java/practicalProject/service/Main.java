@@ -6,14 +6,21 @@ import practicalProject.model.UserAccount;
 import practicalProject.service.AccountCreator;
 
 import javax.persistence.EntityManager;
+import java.util.Scanner;
 
 public class Main {
     public static EntityManager em = HibernateUtil.getSessionFactory().createEntityManager();
     public static void main(String[] args) {
       AccountCreator ac = new AccountCreator();
       ac.createAccount();
+
+
+
+      AddFlight flightadder = new AddFlight();
+      flightadder.addFlight();
+
+
       LoginService loginService = new LoginService();
-      loginService.login("julkam","123");
         HibernateUtil.shutdown();
 
 
