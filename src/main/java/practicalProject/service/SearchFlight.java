@@ -5,7 +5,7 @@ import practicalProject.model.Flight;
 import practicalProject.model.Login;
 
 import javax.persistence.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class SearchFlight {
 
@@ -21,12 +21,22 @@ public class SearchFlight {
         String arrivalAirport = destination.nextLine();
 
        em.getTransaction().begin();
-        em.createQuery("FROM Flight WHERE departureAirport = :departureAirport and arrivalAirport = :arrivalAirport", Flight.class)
+
+        List<Flight> flights = em.createQuery("FROM Flight WHERE departureAirport = :departureAirport and arrivalAirport = :arrivalAirport", Flight.class)
                 .setParameter("departureAirport", departureAirport)
                 .setParameter("arrivalAirport", arrivalAirport)
                 .getResultList();
+        flights.forEach(System.out::println);
+
+        
+
+
 
         em.getTransaction().commit();
+
+
+    }
+    public void buyTicket(){
 
 
     }
