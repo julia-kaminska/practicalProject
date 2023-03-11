@@ -20,7 +20,7 @@ public class AddFlight extends Flight {
             if (choice2 == 2) {
                 break;
             }
-            
+
             em.getTransaction().begin();
             var eneteredValue = new Scanner(System.in);
             System.out.println("Enter plane model.");

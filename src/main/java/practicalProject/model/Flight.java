@@ -1,9 +1,12 @@
 package practicalProject.model;
 
+import practicalProject.service.SearchFlight;
+
 import javax.persistence.*;
 
 @Entity
-public class Flight  {
+public class Flight  extends SearchFlight{
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column

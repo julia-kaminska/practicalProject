@@ -1,13 +1,15 @@
 package practicalProject.service;
 
 import practicalProject.DatabaseConfig.HibernateUtil;
+import practicalProject.model.Flight;
 
-import javax.persistence.EntityManager;
+import javax.persistence.*;
 import java.util.Scanner;
 
 public class SearchFlight {
 
     public static EntityManager em = HibernateUtil.getSessionFactory().createEntityManager();
+
 
     public void searchEngine() {
         System.out.println("Departure airport: ");
@@ -18,12 +20,12 @@ public class SearchFlight {
         String arrivalAirport = destination.nextLine();
 
         em.getTransaction().begin();
-        em.contains(departureAirport);
-        em.contains(arrivalAirport);
-
-
-
-        System.out.println("We have this flights: ");
+        if (departureAirport.equals(Flight.em.contains(departureAirport))){
+            if (arrivalAirport.equals(Flight.em.contains(arrivalAirport)))
+            {
+                System.out.println(Flight.em.toString());
+            }
+        }
 
 
 
