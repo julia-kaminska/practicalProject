@@ -17,6 +17,11 @@ public class SearchFlight {
         Scanner destination = new Scanner(System.in);
         String arrivalAirport = destination.nextLine();
 
+        em.getTransaction().begin();
+        em.contains(departureAirport);
+        em.contains(arrivalAirport);
+
+
 
         System.out.println("We have this flights: ");
 
