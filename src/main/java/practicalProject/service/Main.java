@@ -20,8 +20,8 @@ public class Main {
       flightadder.addFlight();
 
 
-      LoginService loginService = new LoginService();
-        HibernateUtil.shutdown();
+//      LoginService loginService = new LoginService();
+//        HibernateUtil.shutdown();
 
 
     }
