@@ -10,6 +10,9 @@ public class BuyTicket {
 
     public void ticket(){
 
+        SearchFlight sf = new SearchFlight();
+        sf.searchEngine();
+
 
 
     }
