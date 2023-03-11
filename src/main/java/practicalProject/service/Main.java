@@ -20,8 +20,13 @@ public class Main {
       flightadder.addFlight();
 
 
-//      LoginService loginService = new LoginService();
-//        HibernateUtil.shutdown();
+      SearchFlight sf = new SearchFlight();
+      sf.searchEngine();
+
+
+
+      LoginService loginService = new LoginService();
+      HibernateUtil.shutdown();
 
 
     }
